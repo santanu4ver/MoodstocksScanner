@@ -26,17 +26,16 @@ This extenstion tested with iOS 6+ so far.
 First, import the MoodstocksScanner classes into your code.
 
 ```actionscript
-import com.chartboost.plugin.air.Chartboost;
-import com.chartboost.plugin.air.ChartboostEvent;
+import com.webspiders.MoodstocksScanner;
 ```
 
 We recommend making a variable in your class to store a reference to the global Chartboost instance.
 
 ```actionscript
-private var chartboost:Chartboost;
+private var scanner:MoodstocksScanner;
 
 // later...
-chartboost = Chartboost.getInstance();
+scanner = MoodstocksScanner.instance();
 ```
 
 To initialize Chartboost, call the `init()` method with your application's ID and signature from the Chartboost web portal.  You'll probably need to call it conditionally for different platforms, so we've provided some helper functions for you to use.
