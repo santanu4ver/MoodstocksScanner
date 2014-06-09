@@ -1,4 +1,4 @@
-Adobe AIR Native Extension for Moodstocks SDK
+AIR Native Extension for Moodstocks
 ==============================================
 
 Native Extension enables picture recognition technoloy by Moodstocks (https://moodstocks.com/).
