@@ -1,0 +1,14 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+	<sdkVersion>6.1</sdkVersion>
+	<linkerOptions>
+		<option>-framework CoreGraphics</option>
+		<option>-framework CoreVideo</option>
+		<option>-framework QuartzCore</option>
+		<option>-framework CoreMedia</option>
+		<option>-framework AVFoundation</option>
+		<option>-framework CFNetwork</option>
+	</linkerOptions>
+	<packagedDependencies>
+		<packagedDependency>Moodstocks.framework</packagedDependency>
+	</packagedDependencies>
+</platform>
