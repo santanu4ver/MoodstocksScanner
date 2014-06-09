@@ -26,3 +26,17 @@ private function onScannerComplete(event:Event):void
 {
 	trace("Image Match Name: "+ scanner.searchResult);
 }
+
+
+Notes
+
+    The Chartboost Adobe AIR plugin is currently in beta
+    The plugin uses iOS SDK v3.3.1 and Android SDK v3.4.0
+
+Second, make sure you add the <extensionID> declaration to your AIR application descriptor's root <application> element like in the following example:
+
+<extensions>
+    <extensionID>com.chartboost.plugin.air</extensionID>
+</extensions>
+
+Details for iOS
