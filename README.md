@@ -18,47 +18,12 @@ Second, make sure you add the `<extensionID>` declaration to your AIR applicatio
 ##### Details for iOS
 
 This extenstion tested with iOS 6+ so far.
-
-##### Details for Android
-
-Please note that Chartboost only supports Android 2.2 and higher.
-
-Before building for Android, you must place the following manifest additions into your AIR application descriptor file.  Remember to swap in your application's ID and signature from the Chartboost web portal.
-
-```xml
-<manifestAdditions><![CDATA[
-	<manifest android:installLocation="auto">
-		<!-- This permission is required for Chartboost. -->
-		<uses-permission android:name="android.permission.INTERNET"/>
-		
-		<!-- These permissions are recommended for Chartboost. -->
-		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-		<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-		
-		<application>
-			<!-- The app ID and signature for the Android version of your AIR app must be placed here. -->
-			<meta-data android:name="__ChartboostAir__AppID" android:value="ANDROID_APP_ID" />
-			<meta-data android:name="__ChartboostAir__AppSignature" android:value="ANDROID_APP_SIGNATURE" />
-			
-			<!-- Also required for the Chartboost SDK. -->
-			<activity android:name="com.chartboost.sdk.CBImpressionActivity"
-									  android:excludeFromRecents="true" 
-									  android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-		</application>
-	</manifest>
-]]></manifestAdditions>
-```
-
-### Sample
-
-If you want to jump straight into things, just examine the files in the `sample` folder.  Be sure to watch the log (debug builds only) when playing with the demo scenes, as some of the buttons will not have obvious effects.
  
 ### Usage
 
-##### Chartboost Setup
+##### MoodstocksScanner Setup
 
-First, import the Chartboost classes into your code.
+First, import the MoodstocksScanner classes into your code.
 
 ```actionscript
 import com.chartboost.plugin.air.Chartboost;
