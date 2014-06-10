@@ -4,7 +4,7 @@ Native Extension enabling picture recognition technoloy by Moodstocks (https://m
 
 ### Getting Started
 
-After you have set up your app on the Moodstocks web portal and get your API key and secret, you are ready to begin integrating MoodstocksScanner ANE into your mobile AIR project.
+After you have set up your app on the Moodstocks web portal and get your API key and secret, download Moodstocks Uploader for your desktop, upload some image(s) through it which you wants to be scan and recognize by mobile device; you are ready to begin integrating MoodstocksScanner ANE into your mobile AIR project.
 
 First, import the MoodstocksScanner native extension into your AIR app (get it inside Build folder).  We recommend creating a directory in your project for native extensions, and copy `MoodstocksScanner.ane` to that directory.  Then, if you are using *Flash Builder*, you can just add that directory as a native extension directory in your project settings.
 
