@@ -26,7 +26,7 @@ This extenstion tested with iOS 6+ so far.
 First, import the MoodstocksScanner classes into your code.
 
 ```actionscript
-import com.webspiders.MoodstocksScanner;
+import com.webspiders.extension.MoodstocksScanner;
 ```
 
 We recommend making a variable in your class to store a reference to the global Chartboost instance.
