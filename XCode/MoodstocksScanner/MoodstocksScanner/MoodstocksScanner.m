@@ -8,7 +8,6 @@
 
 #import "MoodstocksScanner.h"
 #import "FlashRuntimeExtensions.h"
-#import "RootViewController.h"
 
 #import <Moodstocks/Moodstocks.h>
 
