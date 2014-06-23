@@ -1,9 +1,9 @@
 //
 //  ScannerViewController.m
-//  MSSantanu
+//  MoodstocksScanner
 //
-//  Created by James Heng on 16/04/2014.
-//  Copyright (c) 2014 Moodstocks. All rights reserved.
+//  Created by Santanu.K.
+//  Copyright (c) Santanu Karar. All rights reserved.
 //
 
 #import "ScannerViewController.h"

@@ -3,7 +3,7 @@
 //  MoodstocksScanner
 //
 //  Created by Santanu.K on 08/04/14.
-//  Copyright (c) 2014 Web Spiders India. All rights reserved.
+//  Copyright (c) Santanu Karar. All rights reserved.
 //
 
 #import "MoodstocksScanner.h"
