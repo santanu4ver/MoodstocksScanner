@@ -1,6 +1,6 @@
 # AIR Native Extension for Moodstocks SDK
 
-Native Extension enabling picture recognition technology by Moodstocks (https://moodstocks.com/).
+Native Extension enabling picture recognition technoloy by Moodstocks (https://moodstocks.com/).
 
 ### Getting Started
 
@@ -17,7 +17,7 @@ Second, make sure you add the `<extensionID>` declaration to your AIR applicatio
 ```
 ##### Details for iOS
 
-This extension tested with <iOS8 so far.
+This extenstion tested with iOS 6+ so far.
  
 ### Usage
 
