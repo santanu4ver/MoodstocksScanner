@@ -17,7 +17,7 @@ Second, make sure you add the `<extensionID>` declaration to your AIR applicatio
 ```
 ##### Details for iOS
 
-This extension tested with <iOS8 so far.
+This extension tested with >iOS6 and <iOS8 so far.
  
 ### Usage
 
